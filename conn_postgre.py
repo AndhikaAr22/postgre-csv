@@ -1,21 +1,27 @@
 import psycopg2
-
-host = 'localhost'
-user = 'postgres'
-password = 'admin'
-database = 'eCommerce'
-port = 5432
+import json
 
 
-def con_postgres():
+def param_config(config):
+    with open("config.json","rb") as file:
+        conf = json.load(file)
+
+        try:
+            conf = conf[config]
+            return conf
+        except:
+            print("check config")
+            
+            
+def con_postgres(conf):
     while True:
         try:
             conn = psycopg2.connect(
-                host = host,
-                user = user,
-                password = password,
-                database = database,
-                port = port)
+                host = conf["host"],
+                user = conf["user"],
+                password = conf["password"],
+                database = conf["database"],
+                port = conf["port"])
             break
         except:
             print("config wrong")
