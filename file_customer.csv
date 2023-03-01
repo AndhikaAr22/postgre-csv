@@ -1,0 +1,20 @@
+customername,transactiondate,itemname,price,paymenttype,Discount,jumlah_uang
+Ahzi Izyu,2020-12-20,Camera,9000000.0,cicilan,2700000.0,3703500.0
+Ahzi Izyu,2020-12-20,Rice cooker,950000.0,cicilan,285000.0,3703500.0
+Rei Zuka,2020-12-20,Keyboard,170000.0,cicilan,51000.0,2016000.0
+Rei Zuka,2020-12-20,Bicycle,2300000.0,cicilan,690000.0,2016000.0
+Vina Caliburn,2020-12-20,Sunblock,125000.0,Cash,37500.0,1119000.0
+Vina Caliburn,2020-12-20,Mouse,210000.0,Cash,63000.0,1119000.0
+Lafuan Gorp,2020-12-20,Camera,9000000.0,Debit,2700000.0,4738500.0
+Lafuan Gorp,2020-12-20,Lamp,95000.0,Debit,28500.0,4738500.0
+Lafuan Gorp,2020-12-20,Bicycle,2300000.0,Debit,690000.0,4738500.0
+Lafuan Gorp,2020-12-20,Diving,4400000.0,Debit,1320000.0,4738500.0
+Bernard Spoon,2020-12-21,Diving,4400000.0,Debit,1320000.0,1633500.0
+Ahzi Izyu,2020-12-21,Lamp,95000.0,cicilan,28500.0,3703500.0
+Ahzi Izyu,2020-12-21,Bicycle,2300000.0,cicilan,690000.0,3703500.0
+Rei Zuka,2020-12-22,Television,3300000.0,Cash,990000.0,2016000.0
+Rei Zuka,2020-12-22,Rice cooker,950000.0,Cash,285000.0,2016000.0
+Vina Caliburn,2020-12-22,Television,3300000.0,cicilan,990000.0,1119000.0
+Vina Caliburn,2020-12-22,Lamp,95000.0,cicilan,28500.0,1119000.0
+Bernard Spoon,2020-12-22,Rice cooker,950000.0,Debit,285000.0,1633500.0
+Bernard Spoon,2020-12-22,Lamp,95000.0,Debit,28500.0,1633500.0
